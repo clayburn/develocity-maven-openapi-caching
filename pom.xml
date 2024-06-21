@@ -203,7 +203,7 @@
                                             <property><name>modelsToGenerate</name></property>
                                             <property><name>openapiNormalizer</name></property>
                                             <property><name>packageName</name></property>
-                                            <propery><name>removeOperationIdPrefix</name></propery>
+                                            <property><name>removeOperationIdPrefix</name></property>
                                             <property><name>serverVariableOverrides</name></property>
                                             <property><name>skipIfSpecIsUnchanged</name></property>
                                             <property><name>skipOperationExample</name></property>
