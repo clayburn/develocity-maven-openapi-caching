@@ -1,0 +1,13 @@
+---
+servers:
+- url: "http://localhost:8080"
+openapi: "3.0.0"
+paths:
+  /pets:
+    $ref: "./api.yaml#/paths/~1pets"
+  /pets/{petId}:
+    $ref: "./api.yaml#/paths/~1pets~1{petId}"
+info:
+  title: "merged spec"
+  description: "merged spec"
+  version: "1.0.0"
